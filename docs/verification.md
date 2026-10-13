@@ -203,3 +203,12 @@ Deployed the Docker application to https://opd-raq-aia.onrender.com on Render's 
 The public website was checked in a fresh automated browser session, including doctor login, the three Immediate cards and the two symptom-language boxes. Submission screenshots are saved in docs/assets/live-dashboard.png and docs/assets/live-bilingual-report.png. The hosted runtime uses application commit dba2411; the subsequent submission commit updates documentation and screenshots only.
 
 Render's free filesystem is ephemeral. Restarts/redeployments may start a new seeded queue and remove subsequent demo changes; the documentation states this limitation. The local SQLite database and existing VS Code servers were not reset or stopped.
+
+
+## Judging documentation and submission deck — 13 October 2026
+
+Updated the README with Innovation, Healthcare experience, Working prototype and Impact sections. Added source/tool/AI acknowledgements, an inventory of 204 locked frontend dependency entries plus the locked backend packages, and preserved upstream font/icon notices. Benefits remain intended outcomes; clinical validation is not claimed.
+
+Revised the supplied seven-slide Aayu presentation into a ten-slide working-prototype deck, preserving its template and the original source file. Added innovation, product evidence and future-development slides; updated Groq, the vitals-first workflow, staff override requirements and doctor review; included a real synthetic-demo screenshot, live/repository links and presenter notes.
+
+Checked local documentation links and Git whitespace. The exported PPTX passed package integrity, slide geometry, Arial reference-font policy and first-party re-import checks. All ten slides were rendered from the final file and visually reviewed. Presentation links were inspected and outdated concept-only/one-tap/clinical-validation claims removed. This change updates documentation and the deck only; application tests were not rerun, and previously recorded test counts remain historical software-verification results.

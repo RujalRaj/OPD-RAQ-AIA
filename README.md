@@ -8,10 +8,48 @@ OPD RAQ AIA is a hackathon prototype for patient registration and queue prioriti
 
 - [Live demo](https://opd-raq-aia.onrender.com)
 - [GitHub repository](https://github.com/RujalRaj/OPD-RAQ-AIA)
+- [Submission presentation — 10 slides](docs/presentation/OPD_RAQ_AIA_T05_AAYU-J9F7_Prototype.pptx)
 - [Deployment setup](docs/deployment.md)
 - [AI setup](docs/live-ai-setup.md)
 
 ![Staff dashboard with the curated demo queue](docs/assets/live-dashboard.png)
+
+## **Innovation**
+
+The project combines an existing parcha/token system with a changing urgency queue. Token numbers stay fixed while Immediate, Soon and Routine determine the order staff see.
+
+- **Language and input choice:** Hindi/English voice, text and eight groups of symptom checkboxes. The doctor can compare the original report with a translation.
+- **Rules and live AI together:** the supplied safety matrix runs before Groq. Structured responses are checked by the backend before an AI suggestion is accepted.
+- **Staff control:** a staff-assessed emergency can bypass symptom collection after the required vitals. Staff can change a priority or request doctor review, with an audit record.
+
+The contribution is this OPD workflow and its integration. The pretrained model, clinical reference material and software libraries are credited below.
+
+## **Healthcare experience**
+
+The team information supplied for the presentation includes **Prof. Raj Kishore Singh — Medicine, BRD Medical College**, and **Dr. Aradhana Singh — OBG, AIIMS Gorakhpur**. These are team backgrounds, not institutional endorsements or evidence that the application has been clinically validated.
+
+The intended setting is a government general OPD in Gorakhpur, Uttar Pradesh. The workflow reflects the team's requested constraints: staff-led registration, early vitals, Hindi/English symptom capture, stable parcha numbers, an emergency shortcut and escalation to a doctor when a case is unresolved. It does not require a doctor to approve every registration.
+
+Formal clinical evaluation is still pending. The [source gaps](docs/source-gaps.md) record unresolved differences between the supplied safety matrix and example cases.
+
+## **Working prototype**
+
+> **Available now:** [Open the live demo](https://opd-raq-aia.onrender.com) · [View the code](https://github.com/RujalRaj/OPD-RAQ-AIA)
+
+Registration, live Groq assessment, bilingual symptom reports, staff overrides, doctor review and audit history work in the prototype. The prepared starting queue has **3 Immediate, 7 Soon and 30 Routine synthetic patients**. Seed priorities are local-rule assessments; they are not presented as live model predictions.
+
+Recorded checks for the current release include **195 backend tests, 9 frontend tests, 7 affected browser scenarios**, a production build, and hosted login/queue checks. Live Groq reassessment and translation were also checked with invented reports. These are software and connection checks, not clinical accuracy results. Details are in [verification history](docs/verification.md).
+
+## **Impact**
+
+| Intended benefit | What the prototype provides | What needs to be measured in a supervised evaluation |
+| --- | --- | --- |
+| Make urgent concerns visible earlier | Priority, a short reason and an Immediate-first queue | Time from registration to staff assessment; missed urgent cases |
+| Reduce language and typing barriers | Hindi/English prompts, voice/text/checkbox input and original/translated reports | Completion time, assistance needed and translation errors |
+| Keep decisions accountable | Staff identity, measurements, override reasons and audit history | Review time, reasons for disagreements and completeness of records |
+| Fit an existing OPD queue | Original token retained when priority changes | Queue handling, staff workload and patient understanding |
+
+No reduction in waiting time, improved health outcome or clinical accuracy percentage has been established. The current demonstration uses synthetic data only.
 
 ## What works
 
@@ -167,6 +205,31 @@ The original handoff and battle-plan workbook remain in the repository as refere
 This is a shared synthetic demo with fixed demonstration credentials. It has no real ABHA connection, diagnosis or prescription service. Model suggestions and translations can be wrong and need staff review. Browser speech recognition depends on browser support and may need internet. Hosted inference needs internet; the local database, form, recorded instructions and source-rule fallback can continue without it.
 
 On a free Render instance, SQLite data is temporary and can reset when the instance restarts. The initial demo queue is restored only when the database is empty. Local SQLite data persists on the laptop. See [deployment details](docs/deployment.md).
+
+## Acknowledgements and use of existing work
+
+This is an **AI-assisted implementation** built from supplied project material and existing software. We used **OpenAI Codex/ChatGPT** to help generate and revise code, debug issues, write tests, prepare synthetic cases and bilingual wording, and produce documentation and presentation material. The team supplied the problem, workflow decisions and iterative corrections. We do not claim that all code was written manually or that the model was trained by us. Work developed across the preparation and hackathon iterations is part of this submission.
+
+| Source, tool or asset | How it was used |
+| --- | --- |
+| **Aayu 2026 / DevAarambh, T05 “OPD Flow”** | The supplied problem statement and the token 87 / token 23 example establish the use case. The supplied Aayu presentation template, its background, logos and visual layout are reused in the submission deck. |
+| **[PROJECT_HANDOFF.md](PROJECT_HANDOFF.md) and [Planout.xlsx](Planout.xlsx)** | Starting requirements, data/API design, synthetic examples and the Safety Matrix. The workbook was originally supplied as `Updated_PRANA_Hackathon_Battle_Plan.xlsx`. These references predate the implementation; later user-requested workflow changes are documented here. |
+| **Team-supplied symptom text and workflow changes** | The bilingual symptom catalog, eight checkbox groups, required-vitals flow, emergency shortcut and review/override requirements were adapted from the supplied material and subsequent instructions. |
+| **[WHO / ICRC / MSF Interagency Integrated Triage Tool](https://www.who.int/tools/triage)** | Background reference cited in the supplied material. The workbook also records NEWS2-informed and other clinical guardrails. Our rule implementation is derived from that workbook, not an independently validated implementation of IITT or NEWS2. |
+| **[WHO: Ethics and governance of artificial intelligence for health (2021)](https://www.who.int/publications/i/item/9789240029200)** | Background reference for human oversight and responsible health AI. This does not imply WHO approval. |
+| **[Groq](https://console.groq.com/docs/model/openai/gpt-oss-120b), OpenAI GPT-OSS 120B and the [OpenAI Python SDK](https://github.com/openai/openai-python)** | Groq hosts the pretrained `openai/gpt-oss-120b` model used for live priority suggestions and free-text translation. The SDK connects to Groq's compatible API. An alternative OpenAI provider is supported; the submitted live demo uses Groq. No training or fine-tuning was performed. |
+| **React, React DOM, TypeScript, Vite and CSS** | Frontend components, type checks and build tooling. See the exact dependency inventory below. |
+| **Python, FastAPI, Starlette, Pydantic, SQLAlchemy, SQLite, Uvicorn, HTTPX and python-dotenv** | API, validation, persistence, web serving, provider communication and local configuration. |
+| **[Lucide](https://lucide.dev/), [Fontsource](https://fontsource.org/), DM Sans, Manrope and Noto Sans Devanagari** | Interface icons and bundled fonts. Their upstream licences and notices are retained in [third-party notices](THIRD_PARTY_NOTICES.md). |
+| **[edge-tts](https://github.com/rany2/edge-tts) and Microsoft Edge voices** | Fixed instructional audio generated with `hi-IN-SwaraNeural` and `en-IN-NeerjaNeural`, then bundled for local playback. PyAV and NumPy were used to assemble the clips. Audio generation uses the upstream speech service; it is not a model we created. |
+| **gTTS / Google Translate TTS; faster-whisper / CTranslate2 / Whisper** | gTTS generated the earlier retained Hindi instruction asset. Local faster-whisper `medium` checked the words in generated audio. This was a development check; Whisper is not the application's speech-input service. See [audio provenance](docs/hindi-audio-verification.json) and [current audio checks](docs/instruction-audio-verification.json). |
+| **Browser Web Speech API** | Optional Hindi/English speech recognition. Availability and processing depend on the browser. The current instruction prompts use bundled audio. |
+| **pytest, Vitest, Playwright, Testing Library, axe-core, Ruff and Prettier** | Software testing, selected accessibility checks, linting and formatting. Automated checks do not establish clinical or accessibility certification. |
+| **Git, GitHub, VS Code, Docker and Render** | Development, source hosting, container packaging and demo hosting. |
+| **Codex presentation tools (`@oai/artifact-tool`)** | Used to edit, render and check the revised submission presentation. The Aayu template remains the visual source. |
+| **Synthetic data and screenshots** | Supplied examples were used as references; the current 40-person demonstration queue was generated for this app. Screenshots are captures of our synthetic demo. No real patient dataset was used. |
+
+The [third-party inventory](THIRD_PARTY_NOTICES.md) lists direct and transitive locked packages, versions and declared licences, with retained notices for bundled fonts and icons. Original ownership and licence terms remain with their authors. This declaration describes identified sources and tools; it does not claim ownership of third-party material or permission beyond its applicable terms.
 
 ## Future prospect
 

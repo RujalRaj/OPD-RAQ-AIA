@@ -1,0 +1,26 @@
+{
+  "model": "Systran/faster-whisper-medium",
+  "initial_prompt": null,
+  "language": "hi",
+  "language_probability": 0.9794875979423523,
+  "duration": 7.056,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.2,
+      "text": " आप अपनी परेशानी कैसे बताना चाहते हैं?"
+    },
+    {
+      "start": 3.2,
+      "end": 6.8,
+      "text": " बोलकर, लिखकर या दिये गय विकल्प चुनकर?"
+    }
+  ],
+  "asset": "frontend/src/assets/instructions-hi.mp3",
+  "sha256": "3917e86e80b70215fe800746fdb67695ad5de42aa2e94c7d88f185e701b45516",
+  "expected_text": "आप अपनी परेशानी कैसे बताना चाहते हैं? बोलकर, लिखकर या दिए गए विकल्प चुनकर?",
+  "generated_with": "gTTS 2.5.4, Hindi (hi), normal speed, Google Translate TTS",
+  "checked_on": "2026-10-12",
+  "method": "Local faster-whisper medium CPU int8; no initial prompt, no supplied language, no expected transcript passed to the recognizer.",
+  "assessment": "Both sentences and all three input choices recovered. ASR has spelling variants: दिये गय for दिए गए. This is automated content verification, not a human pronunciation review."
+}

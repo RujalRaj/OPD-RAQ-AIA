@@ -1,0 +1,309 @@
+{
+  "notice": "Synthetic software checks only; not clinical validation. Expected labels unchanged.",
+  "results": [
+    {
+      "case": 1,
+      "expected": "IMMEDIATE",
+      "actual": "IMMEDIATE",
+      "matches": true,
+      "coverage_gap": false,
+      "rule_ids": [
+        11
+      ],
+      "reason": "Reported findings match safety rule 11. Immediate staff assessment requested."
+    },
+    {
+      "case": 2,
+      "expected": "ROUTINE",
+      "actual": "ROUTINE",
+      "matches": true,
+      "coverage_gap": false,
+      "rule_ids": [],
+      "reason": "Stable routine visit reported. No supplied safety condition established; staff may change priority."
+    },
+    {
+      "case": 3,
+      "expected": "IMMEDIATE",
+      "actual": "IMMEDIATE",
+      "matches": true,
+      "coverage_gap": false,
+      "rule_ids": [
+        3
+      ],
+      "reason": "Reported findings match safety rule 3. Immediate staff assessment requested."
+    },
+    {
+      "case": 4,
+      "expected": "IMMEDIATE",
+      "actual": "IMMEDIATE",
+      "matches": true,
+      "coverage_gap": false,
+      "rule_ids": [
+        15
+      ],
+      "reason": "Reported findings match safety rule 15. Immediate staff assessment requested."
+    },
+    {
+      "case": 5,
+      "expected": "IMMEDIATE",
+      "actual": "SOON",
+      "matches": false,
+      "coverage_gap": true,
+      "rule_ids": [],
+      "reason": "Insufficient rule coverage or context. Soon is a demo routing fallback; staff assessment is needed."
+    },
+    {
+      "case": 6,
+      "expected": "ROUTINE",
+      "actual": "ROUTINE",
+      "matches": true,
+      "coverage_gap": false,
+      "rule_ids": [],
+      "reason": "Stable routine visit reported. No supplied safety condition established; staff may change priority."
+    },
+    {
+      "case": 7,
+      "expected": "IMMEDIATE",
+      "actual": "SOON",
+      "matches": false,
+      "coverage_gap": true,
+      "rule_ids": [],
+      "reason": "Insufficient rule coverage or context. Soon is a demo routing fallback; staff assessment is needed."
+    },
+    {
+      "case": 8,
+      "expected": "SOON",
+      "actual": "SOON",
+      "matches": true,
+      "coverage_gap": false,
+      "rule_ids": [
+        31
+      ],
+      "reason": "Reported findings match safety rule 31. Prompt staff assessment requested."
+    },
+    {
+      "case": 9,
+      "expected": "SOON",
+      "actual": "SOON",
+      "matches": true,
+      "coverage_gap": false,
+      "rule_ids": [
+        32
+      ],
+      "reason": "Reported findings match safety rule 32. Prompt staff assessment requested."
+    },
+    {
+      "case": 10,
+      "expected": "IMMEDIATE",
+      "actual": "SOON",
+      "matches": false,
+      "coverage_gap": false,
+      "rule_ids": [
+        35
+      ],
+      "reason": "Reported findings match safety rule 35. Prompt staff assessment requested."
+    },
+    {
+      "case": 11,
+      "expected": "SOON",
+      "actual": "SOON",
+      "matches": true,
+      "coverage_gap": true,
+      "rule_ids": [],
+      "reason": "Insufficient rule coverage or context. Soon is a demo routing fallback; staff assessment is needed."
+    },
+    {
+      "case": 12,
+      "expected": "IMMEDIATE",
+      "actual": "SOON",
+      "matches": false,
+      "coverage_gap": true,
+      "rule_ids": [],
+      "reason": "Insufficient rule coverage or context. Soon is a demo routing fallback; staff assessment is needed."
+    },
+    {
+      "case": 13,
+      "expected": "IMMEDIATE",
+      "actual": "IMMEDIATE",
+      "matches": true,
+      "coverage_gap": false,
+      "rule_ids": [
+        24
+      ],
+      "reason": "Reported findings match safety rule 24. Immediate staff assessment requested."
+    },
+    {
+      "case": 14,
+      "expected": "IMMEDIATE",
+      "actual": "IMMEDIATE",
+      "matches": true,
+      "coverage_gap": false,
+      "rule_ids": [
+        1
+      ],
+      "reason": "Reported findings match safety rule 1. Immediate staff assessment requested."
+    },
+    {
+      "case": 15,
+      "expected": "ROUTINE",
+      "actual": "ROUTINE",
+      "matches": true,
+      "coverage_gap": false,
+      "rule_ids": [],
+      "reason": "Stable routine visit reported. No supplied safety condition established; staff may change priority."
+    },
+    {
+      "case": 16,
+      "expected": "IMMEDIATE",
+      "actual": "IMMEDIATE",
+      "matches": true,
+      "coverage_gap": false,
+      "rule_ids": [
+        10
+      ],
+      "reason": "Reported findings match safety rule 10. Immediate staff assessment requested."
+    },
+    {
+      "case": 17,
+      "expected": "SOON",
+      "actual": "SOON",
+      "matches": true,
+      "coverage_gap": false,
+      "rule_ids": [
+        34
+      ],
+      "reason": "Reported findings match safety rule 34. Prompt staff assessment requested."
+    },
+    {
+      "case": 18,
+      "expected": "SOON",
+      "actual": "SOON",
+      "matches": true,
+      "coverage_gap": false,
+      "rule_ids": [
+        37
+      ],
+      "reason": "Reported findings match safety rule 37. Prompt staff assessment requested."
+    },
+    {
+      "case": 19,
+      "expected": "IMMEDIATE",
+      "actual": "IMMEDIATE",
+      "matches": true,
+      "coverage_gap": false,
+      "rule_ids": [
+        28
+      ],
+      "reason": "Reported findings match safety rule 28. Immediate staff assessment requested."
+    },
+    {
+      "case": 20,
+      "expected": "IMMEDIATE",
+      "actual": "SOON",
+      "matches": false,
+      "coverage_gap": true,
+      "rule_ids": [],
+      "reason": "Insufficient rule coverage or context. Soon is a demo routing fallback; staff assessment is needed."
+    },
+    {
+      "case": 21,
+      "expected": "ROUTINE",
+      "actual": "ROUTINE",
+      "matches": true,
+      "coverage_gap": false,
+      "rule_ids": [],
+      "reason": "Stable routine visit reported. No supplied safety condition established; staff may change priority."
+    },
+    {
+      "case": 22,
+      "expected": "SOON",
+      "actual": "SOON",
+      "matches": true,
+      "coverage_gap": false,
+      "rule_ids": [
+        33
+      ],
+      "reason": "Reported findings match safety rule 33. Prompt staff assessment requested."
+    },
+    {
+      "case": 23,
+      "expected": "SOON",
+      "actual": "SOON",
+      "matches": true,
+      "coverage_gap": false,
+      "rule_ids": [
+        35
+      ],
+      "reason": "Reported findings match safety rule 35. Prompt staff assessment requested."
+    },
+    {
+      "case": 24,
+      "expected": "SOON",
+      "actual": "SOON",
+      "matches": true,
+      "coverage_gap": true,
+      "rule_ids": [],
+      "reason": "Insufficient rule coverage or context. Soon is a demo routing fallback; staff assessment is needed."
+    },
+    {
+      "case": 25,
+      "expected": "SOON",
+      "actual": "SOON",
+      "matches": true,
+      "coverage_gap": true,
+      "rule_ids": [],
+      "reason": "Insufficient rule coverage or context. Soon is a demo routing fallback; staff assessment is needed."
+    },
+    {
+      "case": 26,
+      "expected": "SOON",
+      "actual": "SOON",
+      "matches": true,
+      "coverage_gap": true,
+      "rule_ids": [],
+      "reason": "Insufficient rule coverage or context. Soon is a demo routing fallback; staff assessment is needed."
+    },
+    {
+      "case": 27,
+      "expected": "ROUTINE",
+      "actual": "ROUTINE",
+      "matches": true,
+      "coverage_gap": false,
+      "rule_ids": [],
+      "reason": "Stable routine visit reported. No supplied safety condition established; staff may change priority."
+    },
+    {
+      "case": 28,
+      "expected": "IMMEDIATE",
+      "actual": "IMMEDIATE",
+      "matches": true,
+      "coverage_gap": false,
+      "rule_ids": [
+        19
+      ],
+      "reason": "Reported findings match safety rule 19. Immediate staff assessment requested."
+    },
+    {
+      "case": 29,
+      "expected": "IMMEDIATE",
+      "actual": "IMMEDIATE",
+      "matches": true,
+      "coverage_gap": false,
+      "rule_ids": [
+        3
+      ],
+      "reason": "Reported findings match safety rule 3. Immediate staff assessment requested."
+    },
+    {
+      "case": 30,
+      "expected": "IMMEDIATE",
+      "actual": "IMMEDIATE",
+      "matches": true,
+      "coverage_gap": false,
+      "rule_ids": [
+        14
+      ],
+      "reason": "Reported findings match safety rule 14. Immediate staff assessment requested."
+    }
+  ]
+}

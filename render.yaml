@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: opd-raq-aia
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: AI_PROVIDER
+        value: groq
+      - key: GROQ_MODEL
+        value: openai/gpt-oss-120b
+      - key: GROQ_API_KEY
+        sync: false
+      - key: DATABASE_URL
+        value: sqlite:///./data/opd.db
+      - key: SEED_DEMO_ON_EMPTY
+        value: "true"
+      - key: COOKIE_SECURE
+        value: "true"

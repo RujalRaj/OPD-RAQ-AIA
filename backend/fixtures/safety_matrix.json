@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "domain": "Airway",
+    "trigger": "Unresponsive or cannot maintain/protect airway",
+    "priority": "Immediate",
+    "action": "Activate urgent clinical response; do not wait for routine queue.",
+    "basis": "WHO red-sign principle",
+    "source_sheet": "Safety Matrix",
+    "source_row": 2
+  },
+  {
+    "id": 2,
+    "domain": "Airway",
+    "trigger": "Stridor or obvious upper-airway obstruction",
+    "priority": "Immediate",
+    "action": "Immediate nurse/clinical assessment.",
+    "basis": "WHO IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 3
+  },
+  {
+    "id": 3,
+    "domain": "Breathing",
+    "trigger": "Severe respiratory distress / unable to speak comfortably because of breathlessness",
+    "priority": "Immediate",
+    "action": "Immediate assessment; emergency pathway per local protocol.",
+    "basis": "WHO IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 4
+  },
+  {
+    "id": 4,
+    "domain": "Breathing",
+    "trigger": "Central cyanosis",
+    "priority": "Immediate",
+    "action": "Immediate assessment.",
+    "basis": "WHO IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 5
+  },
+  {
+    "id": 5,
+    "domain": "Breathing",
+    "trigger": "SpO₂ ≤91% on room air, or very low reading with symptoms",
+    "priority": "Immediate",
+    "action": "Repeat/verify reading promptly while escalating.",
+    "basis": "NEWS2-informed guardrail; local validation required",
+    "source_sheet": "Safety Matrix",
+    "source_row": 6
+  },
+  {
+    "id": 6,
+    "domain": "Breathing",
+    "trigger": "Respiratory rate ≥25/min with distress or deterioration",
+    "priority": "Immediate",
+    "action": "Immediate assessment; repeat vital if feasible without delaying care.",
+    "basis": "NEWS2/clinical guardrail",
+    "source_sheet": "Safety Matrix",
+    "source_row": 7
+  },
+  {
+    "id": 7,
+    "domain": "Circulation",
+    "trigger": "Heavy/uncontrolled bleeding",
+    "priority": "Immediate",
+    "action": "Immediate clinical assessment and bleeding control pathway.",
+    "basis": "WHO IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 8
+  },
+  {
+    "id": 8,
+    "domain": "Circulation",
+    "trigger": "Signs of shock / poor perfusion with acute illness",
+    "priority": "Immediate",
+    "action": "Immediate assessment; repeat vitals if feasible.",
+    "basis": "WHO IITT ABC approach",
+    "source_sheet": "Safety Matrix",
+    "source_row": 9
+  },
+  {
+    "id": 9,
+    "domain": "Circulation",
+    "trigger": "Systolic BP <90 mmHg with symptoms or acute illness",
+    "priority": "Immediate",
+    "action": "Immediate assessment; verify measurement if safe.",
+    "basis": "NEWS2-informed guardrail; local validation required",
+    "source_sheet": "Safety Matrix",
+    "source_row": 10
+  },
+  {
+    "id": 10,
+    "domain": "Circulation",
+    "trigger": "Pulse >150/min or <50/min with symptoms/acute illness",
+    "priority": "Immediate",
+    "action": "Immediate assessment; confirm pulse/device reading if feasible.",
+    "basis": "WHO IITT + clinical context",
+    "source_sheet": "Safety Matrix",
+    "source_row": 11
+  },
+  {
+    "id": 11,
+    "domain": "Cardiac",
+    "trigger": "Acute chest pain/pressure/tightness",
+    "priority": "Immediate",
+    "action": "Do not defer to routine queue; prompt clinical assessment.",
+    "basis": "AHA chest-pain guidance",
+    "source_sheet": "Safety Matrix",
+    "source_row": 12
+  },
+  {
+    "id": 12,
+    "domain": "Cardiac",
+    "trigger": "Chest discomfort plus sweating, dyspnea, nausea, syncope or radiation",
+    "priority": "Immediate",
+    "action": "Immediate assessment; avoid diagnostic labeling.",
+    "basis": "AHA chest-pain guidance",
+    "source_sheet": "Safety Matrix",
+    "source_row": 13
+  },
+  {
+    "id": 13,
+    "domain": "Neurologic",
+    "trigger": "New seizure / active convulsion",
+    "priority": "Immediate",
+    "action": "Immediate assessment and safety response.",
+    "basis": "WHO IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 14
+  },
+  {
+    "id": 14,
+    "domain": "Neurologic",
+    "trigger": "New altered mental status / acute confusion with acute illness",
+    "priority": "Immediate",
+    "action": "Immediate assessment.",
+    "basis": "WHO IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 15
+  },
+  {
+    "id": 15,
+    "domain": "Neurologic",
+    "trigger": "New focal neurologic deficit / suspected stroke syndrome",
+    "priority": "Immediate",
+    "action": "Immediate stroke/emergency assessment per local pathway.",
+    "basis": "WHO IITT acute focal neurologic sign",
+    "source_sheet": "Safety Matrix",
+    "source_row": 16
+  },
+  {
+    "id": 16,
+    "domain": "Neurologic",
+    "trigger": "Sudden loss of consciousness / recurrent syncope with concerning symptoms",
+    "priority": "Immediate",
+    "action": "Immediate assessment.",
+    "basis": "WHO IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 17
+  },
+  {
+    "id": 17,
+    "domain": "Neurologic",
+    "trigger": "Sudden severe headache with neurologic/visual symptoms",
+    "priority": "Immediate",
+    "action": "Immediate assessment.",
+    "basis": "WHO IITT severe headache + neuro/visual context",
+    "source_sheet": "Safety Matrix",
+    "source_row": 18
+  },
+  {
+    "id": 18,
+    "domain": "Metabolic",
+    "trigger": "Known/suspected symptomatic hypoglycaemia",
+    "priority": "Immediate",
+    "action": "Immediate bedside glucose check/treatment per local protocol.",
+    "basis": "WHO IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 19
+  },
+  {
+    "id": 19,
+    "domain": "Trauma",
+    "trigger": "High-risk trauma or major mechanism with concerning symptoms",
+    "priority": "Immediate",
+    "action": "Immediate trauma assessment.",
+    "basis": "WHO IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 20
+  },
+  {
+    "id": 20,
+    "domain": "Trauma",
+    "trigger": "Threatened limb / acute limb ischemic-looking symptoms",
+    "priority": "Immediate",
+    "action": "Immediate assessment.",
+    "basis": "WHO IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 21
+  },
+  {
+    "id": 21,
+    "domain": "Toxicology",
+    "trigger": "Suspected poisoning, overdose or dangerous chemical exposure",
+    "priority": "Immediate",
+    "action": "Immediate assessment and toxicology/emergency pathway.",
+    "basis": "WHO IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 22
+  },
+  {
+    "id": 22,
+    "domain": "Infectious",
+    "trigger": "Acute severe illness with respiratory distress, shock, altered consciousness or other emergency sign",
+    "priority": "Immediate",
+    "action": "Immediate assessment; infection-control precautions as indicated.",
+    "basis": "WHO BEC/IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 23
+  },
+  {
+    "id": 23,
+    "domain": "Abdominal",
+    "trigger": "Severe acute abdominal pain with instability, syncope, bleeding or marked deterioration",
+    "priority": "Immediate",
+    "action": "Immediate assessment.",
+    "basis": "WHO IITT + clinical context",
+    "source_sheet": "Safety Matrix",
+    "source_row": 24
+  },
+  {
+    "id": 24,
+    "domain": "Pregnancy",
+    "trigger": "Pregnant/postpartum patient with heavy vaginal bleeding",
+    "priority": "Immediate",
+    "action": "Immediate obstetric assessment.",
+    "basis": "WHO pregnancy danger signs/IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 25
+  },
+  {
+    "id": 25,
+    "domain": "Pregnancy",
+    "trigger": "Pregnant/postpartum patient with seizure, altered consciousness or severe headache + visual symptoms",
+    "priority": "Immediate",
+    "action": "Immediate obstetric assessment.",
+    "basis": "WHO pregnancy danger signs/IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 26
+  },
+  {
+    "id": 26,
+    "domain": "Pregnancy",
+    "trigger": "Pregnant patient with severe abdominal pain",
+    "priority": "Immediate",
+    "action": "Immediate obstetric assessment.",
+    "basis": "WHO pregnancy danger signs",
+    "source_sheet": "Safety Matrix",
+    "source_row": 27
+  },
+  {
+    "id": 27,
+    "domain": "Pregnancy",
+    "trigger": "Pregnant patient with severe/difficult breathing",
+    "priority": "Immediate",
+    "action": "Immediate assessment.",
+    "basis": "WHO pregnancy danger signs",
+    "source_sheet": "Safety Matrix",
+    "source_row": 28
+  },
+  {
+    "id": 28,
+    "domain": "Pregnancy",
+    "trigger": "Pregnant patient with SBP ≥160 or DBP ≥110, especially with symptoms",
+    "priority": "Immediate",
+    "action": "Immediate obstetric assessment; repeat/confirm if safe without delay.",
+    "basis": "WHO IITT pregnancy red sign",
+    "source_sheet": "Safety Matrix",
+    "source_row": 29
+  },
+  {
+    "id": 29,
+    "domain": "Pregnancy",
+    "trigger": "Pregnant patient with active labour plus concerning symptoms/instability",
+    "priority": "Immediate",
+    "action": "Immediate obstetric assessment.",
+    "basis": "WHO IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 30
+  },
+  {
+    "id": 30,
+    "domain": "General",
+    "trigger": "Violent/aggressive behaviour creating immediate safety risk",
+    "priority": "Immediate",
+    "action": "Activate staff safety/security pathway; clinical assessment when safe.",
+    "basis": "WHO IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 31
+  },
+  {
+    "id": 31,
+    "domain": "Breathing",
+    "trigger": "New wheeze without red criteria, stable patient",
+    "priority": "Soon",
+    "action": "Prompt nurse/clinician assessment.",
+    "basis": "WHO IITT yellow-sign principle",
+    "source_sheet": "Safety Matrix",
+    "source_row": 32
+  },
+  {
+    "id": 32,
+    "domain": "Circulation",
+    "trigger": "Recent fainting without current instability",
+    "priority": "Soon",
+    "action": "Prompt assessment and vitals/reassessment.",
+    "basis": "WHO IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 33
+  },
+  {
+    "id": 33,
+    "domain": "Neurologic",
+    "trigger": "Acute focal neurologic complaint without current emergency signs",
+    "priority": "Soon",
+    "action": "Prompt assessment; reassess if worsening.",
+    "basis": "WHO IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 34
+  },
+  {
+    "id": 34,
+    "domain": "Neurologic",
+    "trigger": "Acute visual disturbance without emergency signs",
+    "priority": "Soon",
+    "action": "Prompt assessment.",
+    "basis": "WHO IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 35
+  },
+  {
+    "id": 35,
+    "domain": "General",
+    "trigger": "Severe pain without red-flag instability",
+    "priority": "Soon",
+    "action": "Prompt assessment; reassess if pain escalates.",
+    "basis": "WHO IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 36
+  },
+  {
+    "id": 36,
+    "domain": "General",
+    "trigger": "Acute generalized weakness with new onset",
+    "priority": "Soon",
+    "action": "Prompt assessment and vitals.",
+    "basis": "WHO IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 37
+  },
+  {
+    "id": 37,
+    "domain": "GI/Fluid",
+    "trigger": "Ongoing vomiting/diarrhoea with inability to maintain hydration but no shock signs",
+    "priority": "Soon",
+    "action": "Prompt assessment; reassess hydration/perfusion.",
+    "basis": "WHO IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 38
+  },
+  {
+    "id": 38,
+    "domain": "Bleeding",
+    "trigger": "Ongoing bleeding without shock/red criteria",
+    "priority": "Soon",
+    "action": "Prompt assessment and source-specific evaluation.",
+    "basis": "WHO IITT",
+    "source_sheet": "Safety Matrix",
+    "source_row": 39
+  },
+  {
+    "id": 39,
+    "domain": "Pregnancy",
+    "trigger": "Pregnant patient with fever, abdominal pain or feeling significantly unwell but no red sign",
+    "priority": "Soon",
+    "action": "Prompt obstetric assessment.",
+    "basis": "WHO pregnancy danger signs",
+    "source_sheet": "Safety Matrix",
+    "source_row": 40
+  },
+  {
+    "id": 40,
+    "domain": "Queue safety",
+    "trigger": "Concerning symptoms + critical vitals missing, preventing safe downgrading",
+    "priority": "Soon / Caution",
+    "action": "Do not downgrade to Routine solely because data are missing; obtain nurse assessment/vitals.",
+    "basis": "PRANA safety design; clinician validation required",
+    "source_sheet": "Safety Matrix",
+    "source_row": 41
+  }
+]

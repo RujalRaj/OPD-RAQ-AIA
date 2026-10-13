@@ -1,0 +1,317 @@
+[
+  {
+    "id": "report_v3_01",
+    "en": "Severe difficulty breathing, choking or suffocation, or being unable to speak a full sentence because of breathlessness.",
+    "hi": "साँस लेने में बहुत तकलीफ, दम घुटना, या साँस के कारण पूरा वाक्य न बोल पाना।"
+  },
+  {
+    "id": "report_v3_02",
+    "en": "Something stuck in the throat, pauses in breathing, or lips/tongue turning blue.",
+    "hi": "गले में कुछ अटकना, साँस रुक-रुक कर आना, या होंठ/जीभ नीले पड़ना।"
+  },
+  {
+    "id": "report_v3_03",
+    "en": "New chest pain, pressure, tightness or heaviness.",
+    "hi": "सीने में नया दर्द, दबाव, जकड़न या भारीपन।"
+  },
+  {
+    "id": "report_v3_04",
+    "en": "“Gas” or burning in the chest/upper abdomen with sweating, breathlessness, vomiting, dizziness, or pain in the arm/jaw/back.",
+    "hi": "सीने/ऊपरी पेट में “गैस” या जलन के साथ पसीना, साँस फूलना, उल्टी, चक्कर, या बाँह/जबड़े/पीठ में दर्द।"
+  },
+  {
+    "id": "report_v3_05",
+    "en": "Rapid swelling of the lips, tongue or throat after medicine, an injection, food or an insect bite/sting.",
+    "hi": "दवा, इंजेक्शन, खाने या कीड़े के काटने के बाद होंठ, जीभ या गला तेजी से सूजना।"
+  },
+  {
+    "id": "report_v3_06",
+    "en": "A suddenly fast/irregular heartbeat with chest pain, breathing difficulty or feeling faint.",
+    "hi": "अचानक तेज/अनियमित धड़कन के साथ सीने में दर्द, साँस की तकलीफ या बेहोशी जैसा लगना।"
+  },
+  {
+    "id": "report_v3_07",
+    "en": "Unconsciousness, sudden collapse, or not waking properly when someone tries to wake the patient.",
+    "hi": "बेहोशी, अचानक गिरना, या जगाने पर ठीक से न जागना।"
+  },
+  {
+    "id": "report_v3_08",
+    "en": "Suddenly not recognising people, confused speech, or unusual drowsiness.",
+    "hi": "अचानक पहचानना बंद करना, उल्टी-सीधी बातें करना, या असामान्य सुस्ती।"
+  },
+  {
+    "id": "report_v3_09",
+    "en": "Sudden facial drooping or weakness/numbness of the arm or leg on one side.",
+    "hi": "अचानक मुँह टेढ़ा होना या एक तरफ का हाथ-पैर कमजोर/सुन्न होना।"
+  },
+  {
+    "id": "report_v3_10",
+    "en": "Sudden slurred speech, trouble speaking/understanding, or loss of balance making walking impossible—even if it has now improved.",
+    "hi": "अचानक बोली लड़खड़ाना, बोलने/समझने में परेशानी, या संतुलन बिगड़कर चल न पाना—भले अब सुधार हो गया हो।"
+  },
+  {
+    "id": "report_v3_11",
+    "en": "A seizure happening now, repeated seizures, not regaining consciousness after a seizure, or a first-ever seizure.",
+    "hi": "अभी दौरा पड़ना, बार-बार दौरे आना, दौरे के बाद होश न आना, या पहली बार दौरा पड़ना।"
+  },
+  {
+    "id": "report_v3_12",
+    "en": "An extremely severe headache that starts suddenly; or headache with a stiff neck, fever, weakness, vomiting or a change in consciousness.",
+    "hi": "अचानक शुरू हुआ बेहद तेज सिरदर्द; या सिरदर्द के साथ गर्दन अकड़ना, बुखार, कमजोरी, उल्टी या होश बदलना।"
+  },
+  {
+    "id": "report_v3_13",
+    "en": "Continuous/heavy bleeding, or clothes/bandages repeatedly becoming soaked with blood.",
+    "hi": "खून लगातार/बहुत ज्यादा बहना या कपड़े/पट्टी बार-बार भीगना।"
+  },
+  {
+    "id": "report_v3_14",
+    "en": "Vomiting blood, coughing up blood, or black, sticky or bloody stools.",
+    "hi": "खून की उल्टी, खाँसी में खून, या काला, चिपचिपा अथवा खून वाला मल।"
+  },
+  {
+    "id": "report_v3_15",
+    "en": "Bleeding with dizziness, severe weakness, paleness or breathlessness.",
+    "hi": "खून बहने के साथ चक्कर, बहुत कमजोरी, पीलापन या साँस फूलना।"
+  },
+  {
+    "id": "report_v3_16",
+    "en": "Hands/feet suddenly becoming cold, cold sweats, or being unable to stand because of weakness/dizziness.",
+    "hi": "अचानक हाथ-पैर ठंडे पड़ना, ठंडा पसीना आना, या कमजोरी/चक्कर से खड़े न हो पाना।"
+  },
+  {
+    "id": "report_v3_17",
+    "en": "Repeated vomiting/diarrhoea; unable to keep even water down or unable to drink.",
+    "hi": "बार-बार उल्टी-दस्त; पानी भी न रुकना या पी न पाना।"
+  },
+  {
+    "id": "report_v3_18",
+    "en": "Very little or almost no urine during illness, especially with drowsiness or weakness.",
+    "hi": "बीमारी के दौरान पेशाब बहुत कम होना/लगभग बंद होना, खासकर सुस्ती या कमजोरी के साथ।"
+  },
+  {
+    "id": "report_v3_19",
+    "en": "Sudden very severe abdominal pain, pain that keeps worsening, or severe pain when the abdomen is touched.",
+    "hi": "पेट में अचानक बहुत तेज दर्द, लगातार बढ़ता दर्द, या छूने पर बहुत दर्द।"
+  },
+  {
+    "id": "report_v3_20",
+    "en": "A very swollen abdomen with vomiting or inability to pass stool/gas.",
+    "hi": "पेट बहुत फूलना और साथ में उल्टी या मल/गैस निकलना बंद होना।"
+  },
+  {
+    "id": "report_v3_21",
+    "en": "Unable to pass urine despite a strong urge and pain in the lower abdomen.",
+    "hi": "पेशाब की जोरदार इच्छा और नीचे पेट में दर्द होने के बावजूद पेशाब न निकलना।"
+  },
+  {
+    "id": "report_v3_22",
+    "en": "Sudden sweating, trembling, anxiety or weakness in someone taking diabetes medicine/insulin.",
+    "hi": "शुगर की दवा/इंसुलिन लेने वाले मरीज में अचानक पसीना, काँपना, घबराहट या कमजोरी।"
+  },
+  {
+    "id": "report_v3_23",
+    "en": "Excessive thirst/frequent urination with vomiting, abdominal pain, deep and rapid breathing or unusual drowsiness.",
+    "hi": "बहुत प्यास/बार-बार पेशाब के साथ उल्टी, पेट दर्द, गहरी-तेज साँस या असामान्य सुस्ती।"
+  },
+  {
+    "id": "report_v3_24",
+    "en": "Fever/infection with a change in consciousness, rapid breathing, very little urine or rapidly worsening condition.",
+    "hi": "बुखार/संक्रमण के साथ होश बदलना, तेज साँस, बहुत कम पेशाब या तेजी से हालत बिगड़ना।"
+  },
+  {
+    "id": "report_v3_25",
+    "en": "Severe abdominal pain, persistent vomiting, bleeding, cold hands/feet or unusual restlessness/drowsiness during fever/dengue or after the fever settles.",
+    "hi": "बुखार/डेंगू के दौरान या बुखार उतरने के बाद तेज पेट दर्द, लगातार उल्टी, खून आना, ठंडे हाथ-पैर या असामान्य बेचैनी/सुस्ती।"
+  },
+  {
+    "id": "report_v3_26",
+    "en": "Fever, chills or suddenly feeling very ill during cancer chemotherapy.",
+    "hi": "कैंसर की कीमोथेरेपी के दौरान बुखार, कँपकँपी या अचानक बहुत बीमार महसूस होना।"
+  },
+  {
+    "id": "report_v3_27",
+    "en": "An older person or someone with weakened immunity suddenly becoming confused, stopping eating/drinking or being unable to do usual activities.",
+    "hi": "बुजुर्ग या कमजोर रोग-प्रतिरोधक क्षमता वाले मरीज का अचानक भ्रमित होना, खाना-पीना छोड़ना या सामान्य काम न कर पाना।"
+  },
+  {
+    "id": "report_v3_28",
+    "en": "A rapidly spreading painful rash, blisters, peeling skin, or these symptoms with sores in the mouth/eyes/genitals—especially after a new medicine.",
+    "hi": "तेजी से फैलते दर्द वाले दाने, छाले, चमड़ी उतरना, या इनके साथ मुँह/आँख/गुप्तांग में घाव—विशेषकर नई दवा के बाद।"
+  },
+  {
+    "id": "report_v3_29",
+    "en": "A very hot body after sun/heat exposure, with confused speech, unsteadiness, unconsciousness or a seizure.",
+    "hi": "धूप/गर्मी के बाद शरीर बहुत गरम होने के साथ उल्टी-सीधी बातें, लड़खड़ाना, बेहोशी या दौरा।"
+  },
+  {
+    "id": "report_v3_30",
+    "en": "A road accident, fall from a height, crush injury, or deep/penetrating injury.",
+    "hi": "सड़क दुर्घटना, ऊँचाई से गिरना, शरीर दबना, या गहरी/आर-पार चोट।"
+  },
+  {
+    "id": "report_v3_31",
+    "en": "Unconsciousness, repeated vomiting, increasing drowsiness or changed behaviour after a head injury.",
+    "hi": "सिर की चोट के बाद बेहोशी, बार-बार उल्टी, बढ़ती सुस्ती या बदला हुआ व्यवहार।"
+  },
+  {
+    "id": "report_v3_32",
+    "en": "Extensive burns, burns to the face/throat, or being trapped in smoke.",
+    "hi": "बहुत ज्यादा जलना, चेहरे/गले पर जलना, या धुएँ में फँसना।"
+  },
+  {
+    "id": "report_v3_33",
+    "en": "An electric shock or a drowning incident.",
+    "hi": "करंट लगना या पानी में डूबने की घटना।"
+  },
+  {
+    "id": "report_v3_34",
+    "en": "Taking poison, pesticide, aluminium phosphide (“Salphas”), rat poison, acid or too many tablets; or exposure to poisonous gas.",
+    "hi": "जहर, कीटनाशक, सल्फास, चूहे की दवा, तेजाब या ज्यादा गोलियाँ लेना; अथवा जहरीली गैस का संपर्क।"
+  },
+  {
+    "id": "report_v3_35",
+    "en": "A snakebite or suspected snakebite—even without symptoms.",
+    "hi": "साँप ने काटा है या साँप काटने का संदेह है—लक्षण न होने पर भी।"
+  },
+  {
+    "id": "report_v3_36",
+    "en": "An animal bite/scratch, injury from a used needle, or someone else’s blood getting into the eyes/mouth/an open wound.",
+    "hi": "जानवर ने काटा/खरोंचा; इस्तेमाल की सुई चुभी; या दूसरे का खून आँख/मुँह/खुले घाव में लगा।"
+  },
+  {
+    "id": "report_v3_37",
+    "en": "Sudden reduced/lost vision in one or both eyes, or a very painful eye with blurred vision.",
+    "hi": "अचानक एक या दोनों आँखों से कम/बिल्कुल न दिखना, या बहुत दर्द वाली आँख के साथ धुंधलापन।"
+  },
+  {
+    "id": "report_v3_38",
+    "en": "A chemical/acid splash in the eye, injury from a sharp object, or reduced vision after an eye injury.",
+    "hi": "आँख में केमिकल/तेजाब पड़ना, नुकीली चीज लगना, या चोट के बाद नजर कम होना।"
+  },
+  {
+    "id": "report_v3_39",
+    "en": "An arm/leg suddenly becoming very painful and cold, pale, numb or weak.",
+    "hi": "हाथ/पैर अचानक बहुत दर्द के साथ ठंडा, सफेद, सुन्न या कमजोर होना।"
+  },
+  {
+    "id": "report_v3_40",
+    "en": "Increasing unbearable pain or tight swelling after an injury/cast; or a bent/deformed arm/leg or exposed bone after injury.",
+    "hi": "चोट/प्लास्टर के बाद बढ़ता असहनीय दर्द या कसी हुई सूजन; अथवा चोट के बाद हाथ-पैर टेढ़ा होना/हड्डी बाहर दिखना।"
+  },
+  {
+    "id": "report_v3_41",
+    "en": "Back pain with new loss of bladder/bowel control, inability to pass urine, numbness between the thighs or increasing leg weakness.",
+    "hi": "कमर दर्द के साथ नया पेशाब/पाखाने का नियंत्रण बिगड़ना, पेशाब रुकना, जाँघों के बीच सुन्नपन या बढ़ती पैर की कमजोरी।"
+  },
+  {
+    "id": "report_v3_42",
+    "en": "Sudden severe testicular pain/swelling, especially with vomiting or abdominal pain.",
+    "hi": "अंडकोष में अचानक तेज दर्द/सूजन, खासकर उल्टी या पेट दर्द के साथ।"
+  },
+  {
+    "id": "report_v3_43",
+    "en": "A persistent erection with pain in the penis.",
+    "hi": "लिंग में दर्द के साथ लगातार कड़ापन बना रहना।"
+  },
+  {
+    "id": "report_v3_44",
+    "en": "A child unable to drink milk/water or vomiting everything offered.",
+    "hi": "बच्चा दूध/पानी नहीं पी पा रहा या जो भी देते हैं सब उल्टी कर देता है।"
+  },
+  {
+    "id": "report_v3_45",
+    "en": "A child who is very floppy/drowsy, does not wake properly, or does not respond as usual.",
+    "hi": "बच्चा बहुत ढीला/सुस्त है, जगाने पर ठीक से नहीं जागता, या सामान्य तरह से जवाब नहीं देता।"
+  },
+  {
+    "id": "report_v3_46",
+    "en": "Ribs pulling inward while breathing, grunting, pauses in breathing or inability to feed because of breathing difficulty.",
+    "hi": "साँस लेते समय पसलियाँ अंदर खिंचना, कराहना, साँस रुकना या साँस के कारण दूध न पी पाना।"
+  },
+  {
+    "id": "report_v3_47",
+    "en": "Fever/feeling hot in a baby under three months, or an unusually cold body in a young child.",
+    "hi": "तीन महीने से छोटे बच्चे को बुखार/गरम शरीर लगना, या छोटे बच्चे का शरीर असामान्य रूप से ठंडा लगना।"
+  },
+  {
+    "id": "report_v3_48",
+    "en": "Sunken eyes, very little urine or a nappy staying dry for a long time with diarrhoea/vomiting.",
+    "hi": "दस्त/उल्टी के साथ आँखें धँसना, पेशाब बहुत कम होना या नैपी लंबे समय से सूखी रहना।"
+  },
+  {
+    "id": "report_v3_49",
+    "en": "Green vomit, a very swollen abdomen, or episodes of severe pain/crying with bloody stools or drowsiness.",
+    "hi": "हरी उल्टी, बहुत फूला पेट, या तेज दर्द/रोने के दौरों के साथ खून वाला मल या सुस्ती।"
+  },
+  {
+    "id": "report_v3_50",
+    "en": "Yellowing on the first day after birth, yellow palms/soles, or yellowing with poor feeding/drowsiness.",
+    "hi": "जन्म के पहले दिन पीलापन, हथेली-तलवे पीले होना, या पीलापन के साथ दूध कम पीना/सुस्ती।"
+  },
+  {
+    "id": "report_v3_51",
+    "en": "Persistent unusual crying, being inconsolable during illness, or a caregiver feeling the child is very different from usual.",
+    "hi": "बीमारी के साथ लगातार असामान्य रोना, चुप न होना, या अभिभावक को बच्चा बहुत असामान्य लगना।"
+  },
+  {
+    "id": "report_v3_52",
+    "en": "Bleeding during pregnancy; or heavy bleeding/large clots after delivery or miscarriage/abortion.",
+    "hi": "गर्भावस्था में खून आना; या डिलीवरी/गर्भपात के बाद बहुत खून/बड़े थक्के निकलना।"
+  },
+  {
+    "id": "report_v3_53",
+    "en": "Severe abdominal pain during pregnancy/after a missed period, especially with dizziness, fainting, bleeding or shoulder pain.",
+    "hi": "गर्भावस्था/माहवारी रुकने के साथ तेज पेट दर्द, खासकर चक्कर, बेहोशी, खून या कंधे के दर्द के साथ।"
+  },
+  {
+    "id": "report_v3_54",
+    "en": "Severe headache, blurred vision/flashing lights, a seizure or a change in consciousness.",
+    "hi": "तेज सिरदर्द, धुंधला दिखना/चमक दिखना, दौरा या होश बदलना।"
+  },
+  {
+    "id": "report_v3_55",
+    "en": "Breathing difficulty, chest pain, fainting; or new pain and swelling in one leg.",
+    "hi": "साँस की तकलीफ, सीने में दर्द, बेहोशी; या एक पैर में नया दर्द और सूजन।"
+  },
+  {
+    "id": "report_v3_56",
+    "en": "The baby moving less than usual or stopping moving in the womb.",
+    "hi": "गर्भ में बच्चा पहले से कम हिलना या हिलना बंद होना।"
+  },
+  {
+    "id": "report_v3_57",
+    "en": "Fluid leaking from the vagina, repeated labour-like pain or an urge to push.",
+    "hi": "योनि से पानी बहना, बार-बार प्रसव जैसा दर्द या नीचे जोर लगाने की इच्छा।"
+  },
+  {
+    "id": "report_v3_58",
+    "en": "Fever, foul-smelling discharge, abdominal pain or worsening condition after delivery or miscarriage/abortion.",
+    "hi": "डिलीवरी/गर्भपात के बाद बुखार, बदबू वाला स्राव, पेट दर्द या हालत बिगड़ना।"
+  },
+  {
+    "id": "report_v3_59",
+    "en": "Persistent vomiting with inability to keep even water down, or sudden severe weakness.",
+    "hi": "लगातार उल्टी और पानी भी न रुकना, या अचानक बहुत ज्यादा कमजोरी।"
+  },
+  {
+    "id": "report_v3_60",
+    "en": "Current thoughts or intent to end one’s life/harm oneself, or a recent attempt.",
+    "hi": "अभी अपनी जान लेने/खुद को नुकसान पहुँचाने का विचार या इरादा, या हाल में ऐसा प्रयास।"
+  },
+  {
+    "id": "report_v3_61",
+    "en": "Behaviour creating an immediate risk of harm to the patient or another person.",
+    "hi": "ऐसा व्यवहार जिससे मरीज को स्वयं या किसी अन्य व्यक्ति को तत्काल नुकसान का खतरा हो।"
+  },
+  {
+    "id": "report_v3_62",
+    "en": "Thoughts of harming oneself or the baby, very confused behaviour or unusual speech after delivery.",
+    "hi": "डिलीवरी के बाद खुद को या बच्चे को नुकसान पहुँचाने के विचार, बहुत भ्रमित व्यवहार या असामान्य बातें।"
+  },
+  {
+    "id": "report_v3_63",
+    "en": "Recent sexual violence/coercion, or the patient currently feeling unsafe.",
+    "hi": "हाल में यौन हिंसा/जबरदस्ती हुई है, या मरीज अभी खुद को असुरक्षित बता रहा है।"
+  }
+]

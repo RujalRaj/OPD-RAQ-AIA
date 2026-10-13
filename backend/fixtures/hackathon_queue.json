@@ -1,0 +1,1989 @@
+[
+  {
+    "case": 1,
+    "intake": {
+      "name": "Demo Ramesh Yadav",
+      "age_years": 60,
+      "sex": "MALE",
+      "pregnancy_status": "UNKNOWN",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "New chest pain with sweating for 30 minutes",
+      "confirmed_text": "New chest pain with sweating for 30 minutes",
+      "facts": {},
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 112,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 138,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 88,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 22,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 2,
+    "intake": {
+      "name": "Demo Meena Devi",
+      "age_years": 49,
+      "sex": "FEMALE",
+      "pregnancy_status": "NOT_PREGNANT",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Severe breathlessness; unable to speak full sentences",
+      "confirmed_text": "Severe breathlessness; unable to speak full sentences",
+      "facts": {
+        "room_air": true,
+        "distress_or_deterioration": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 89,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 118,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 28,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 3,
+    "intake": {
+      "name": "Demo Anita Verma",
+      "age_years": 38,
+      "sex": "FEMALE",
+      "pregnancy_status": "NOT_PREGNANT",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "New chest pain entered at registration",
+      "confirmed_text": "New chest pain entered at registration",
+      "facts": {},
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    },
+    "scenario": {
+      "title": "Override practice · scripted registration error",
+      "briefing": "Invented demonstration: chest pain was entered incorrectly at registration. During the role-play, staff confirms this is a routine thyroid-refill visit without a current complaint. Enter your reassessment reason and a newly checked vital in Change queue priority, then choose Routine. The original urgent report and alert remain preserved. This scripted case is not evidence of a real Groq error."
+    }
+  },
+  {
+    "case": 4,
+    "intake": {
+      "name": "Demo Sanjay Gupta",
+      "age_years": 34,
+      "sex": "MALE",
+      "pregnancy_status": "UNKNOWN",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Wheeze, mild; speaking normally",
+      "confirmed_text": "Wheeze, mild; speaking normally",
+      "facts": {},
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 5,
+    "intake": {
+      "name": "Demo Farida Begum",
+      "age_years": 46,
+      "sex": "FEMALE",
+      "pregnancy_status": "NOT_PREGNANT",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Fainted briefly; now alert",
+      "confirmed_text": "Fainted briefly; now alert",
+      "facts": {},
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 6,
+    "intake": {
+      "name": "Demo Deepak Nishad",
+      "age_years": 57,
+      "sex": "MALE",
+      "pregnancy_status": "UNKNOWN",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "New weakness of both legs; no instability",
+      "confirmed_text": "New weakness of both legs; no instability",
+      "facts": {},
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 7,
+    "intake": {
+      "name": "Demo Kavita Singh",
+      "age_years": 61,
+      "sex": "FEMALE",
+      "pregnancy_status": "NOT_PREGNANT",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Acute visual disturbance",
+      "confirmed_text": "Acute visual disturbance",
+      "facts": {},
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 8,
+    "intake": {
+      "name": "Demo Mohit Kumar",
+      "age_years": 43,
+      "sex": "MALE",
+      "pregnancy_status": "UNKNOWN",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Severe pain",
+      "confirmed_text": "Severe pain",
+      "facts": {},
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 9,
+    "intake": {
+      "name": "Demo Shanti Devi",
+      "age_years": 66,
+      "sex": "FEMALE",
+      "pregnancy_status": "NOT_PREGNANT",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "New generalized weakness",
+      "confirmed_text": "New generalized weakness",
+      "facts": {},
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 10,
+    "intake": {
+      "name": "Demo Rahul Chauhan",
+      "age_years": 29,
+      "sex": "MALE",
+      "pregnancy_status": "UNKNOWN",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Vomiting repeatedly; cannot keep fluids down",
+      "confirmed_text": "Vomiting repeatedly; cannot keep fluids down",
+      "facts": {},
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 11,
+    "intake": {
+      "name": "Demo Asha Patel",
+      "age_years": 45,
+      "sex": "FEMALE",
+      "pregnancy_status": "NOT_PREGNANT",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine thyroid refill",
+      "confirmed_text": "Routine thyroid refill",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 12,
+    "intake": {
+      "name": "Demo Rajesh Mishra",
+      "age_years": 52,
+      "sex": "MALE",
+      "pregnancy_status": "UNKNOWN",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine diabetes follow-up; feels well",
+      "confirmed_text": "Routine diabetes follow-up; feels well",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 13,
+    "intake": {
+      "name": "Demo Naseem Ahmad",
+      "age_years": 64,
+      "sex": "MALE",
+      "pregnancy_status": "UNKNOWN",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine hypertension follow-up, asymptomatic",
+      "confirmed_text": "Routine hypertension follow-up, asymptomatic",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 14,
+    "intake": {
+      "name": "Demo Pooja Srivastava",
+      "age_years": 39,
+      "sex": "FEMALE",
+      "pregnancy_status": "NOT_PREGNANT",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine arthritis follow-up",
+      "confirmed_text": "Routine arthritis follow-up",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 15,
+    "intake": {
+      "name": "Demo Suresh Maurya",
+      "age_years": 58,
+      "sex": "MALE",
+      "pregnancy_status": "UNKNOWN",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine thyroid refill",
+      "confirmed_text": "Routine thyroid refill",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 16,
+    "intake": {
+      "name": "Demo Lata Pandey",
+      "age_years": 47,
+      "sex": "FEMALE",
+      "pregnancy_status": "NOT_PREGNANT",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine diabetes follow-up; feels well",
+      "confirmed_text": "Routine diabetes follow-up; feels well",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 17,
+    "intake": {
+      "name": "Demo Vijay Tiwari",
+      "age_years": 62,
+      "sex": "MALE",
+      "pregnancy_status": "UNKNOWN",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine hypertension follow-up, asymptomatic",
+      "confirmed_text": "Routine hypertension follow-up, asymptomatic",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 18,
+    "intake": {
+      "name": "Demo Rekha Devi",
+      "age_years": 51,
+      "sex": "FEMALE",
+      "pregnancy_status": "NOT_PREGNANT",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine arthritis follow-up",
+      "confirmed_text": "Routine arthritis follow-up",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 19,
+    "intake": {
+      "name": "Demo Irfan Ali",
+      "age_years": 37,
+      "sex": "MALE",
+      "pregnancy_status": "UNKNOWN",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine thyroid refill",
+      "confirmed_text": "Routine thyroid refill",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 20,
+    "intake": {
+      "name": "Demo Sunita Kushwaha",
+      "age_years": 55,
+      "sex": "FEMALE",
+      "pregnancy_status": "NOT_PREGNANT",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine diabetes follow-up; feels well",
+      "confirmed_text": "Routine diabetes follow-up; feels well",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 21,
+    "intake": {
+      "name": "Demo Arun Prasad",
+      "age_years": 68,
+      "sex": "MALE",
+      "pregnancy_status": "UNKNOWN",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine hypertension follow-up, asymptomatic",
+      "confirmed_text": "Routine hypertension follow-up, asymptomatic",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 22,
+    "intake": {
+      "name": "Demo Neelam Sahni",
+      "age_years": 44,
+      "sex": "FEMALE",
+      "pregnancy_status": "NOT_PREGNANT",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine arthritis follow-up",
+      "confirmed_text": "Routine arthritis follow-up",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 23,
+    "intake": {
+      "name": "Demo Amit Shukla",
+      "age_years": 31,
+      "sex": "MALE",
+      "pregnancy_status": "UNKNOWN",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine thyroid refill",
+      "confirmed_text": "Routine thyroid refill",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 24,
+    "intake": {
+      "name": "Demo Rukhsana Bano",
+      "age_years": 59,
+      "sex": "FEMALE",
+      "pregnancy_status": "NOT_PREGNANT",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine diabetes follow-up; feels well",
+      "confirmed_text": "Routine diabetes follow-up; feels well",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 25,
+    "intake": {
+      "name": "Demo Dinesh Gond",
+      "age_years": 48,
+      "sex": "MALE",
+      "pregnancy_status": "UNKNOWN",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine hypertension follow-up, asymptomatic",
+      "confirmed_text": "Routine hypertension follow-up, asymptomatic",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 26,
+    "intake": {
+      "name": "Demo Sarita Rai",
+      "age_years": 53,
+      "sex": "FEMALE",
+      "pregnancy_status": "NOT_PREGNANT",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine arthritis follow-up",
+      "confirmed_text": "Routine arthritis follow-up",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 27,
+    "intake": {
+      "name": "Demo Vinod Kumar",
+      "age_years": 65,
+      "sex": "MALE",
+      "pregnancy_status": "UNKNOWN",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine thyroid refill",
+      "confirmed_text": "Routine thyroid refill",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 28,
+    "intake": {
+      "name": "Demo Geeta Chaudhary",
+      "age_years": 41,
+      "sex": "FEMALE",
+      "pregnancy_status": "NOT_PREGNANT",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine diabetes follow-up; feels well",
+      "confirmed_text": "Routine diabetes follow-up; feels well",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 29,
+    "intake": {
+      "name": "Demo Shakeel Ansari",
+      "age_years": 56,
+      "sex": "MALE",
+      "pregnancy_status": "UNKNOWN",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine hypertension follow-up, asymptomatic",
+      "confirmed_text": "Routine hypertension follow-up, asymptomatic",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 30,
+    "intake": {
+      "name": "Demo Manju Sinha",
+      "age_years": 60,
+      "sex": "FEMALE",
+      "pregnancy_status": "NOT_PREGNANT",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine arthritis follow-up",
+      "confirmed_text": "Routine arthritis follow-up",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 31,
+    "intake": {
+      "name": "Demo Prakash Pal",
+      "age_years": 50,
+      "sex": "MALE",
+      "pregnancy_status": "UNKNOWN",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine thyroid refill",
+      "confirmed_text": "Routine thyroid refill",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 32,
+    "intake": {
+      "name": "Demo Usha Verma",
+      "age_years": 63,
+      "sex": "FEMALE",
+      "pregnancy_status": "NOT_PREGNANT",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine diabetes follow-up; feels well",
+      "confirmed_text": "Routine diabetes follow-up; feels well",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 33,
+    "intake": {
+      "name": "Demo Ashok Singh",
+      "age_years": 54,
+      "sex": "MALE",
+      "pregnancy_status": "UNKNOWN",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine hypertension follow-up, asymptomatic",
+      "confirmed_text": "Routine hypertension follow-up, asymptomatic",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 34,
+    "intake": {
+      "name": "Demo Seema Gupta",
+      "age_years": 46,
+      "sex": "FEMALE",
+      "pregnancy_status": "NOT_PREGNANT",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine arthritis follow-up",
+      "confirmed_text": "Routine arthritis follow-up",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 35,
+    "intake": {
+      "name": "Demo Mahesh Pandey",
+      "age_years": 69,
+      "sex": "MALE",
+      "pregnancy_status": "UNKNOWN",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine thyroid refill",
+      "confirmed_text": "Routine thyroid refill",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 36,
+    "intake": {
+      "name": "Demo Nirmala Devi",
+      "age_years": 57,
+      "sex": "FEMALE",
+      "pregnancy_status": "NOT_PREGNANT",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine diabetes follow-up; feels well",
+      "confirmed_text": "Routine diabetes follow-up; feels well",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 37,
+    "intake": {
+      "name": "Demo Anil Yadav",
+      "age_years": 42,
+      "sex": "MALE",
+      "pregnancy_status": "UNKNOWN",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine hypertension follow-up, asymptomatic",
+      "confirmed_text": "Routine hypertension follow-up, asymptomatic",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 38,
+    "intake": {
+      "name": "Demo Sangeeta Rai",
+      "age_years": 52,
+      "sex": "FEMALE",
+      "pregnancy_status": "NOT_PREGNANT",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine arthritis follow-up",
+      "confirmed_text": "Routine arthritis follow-up",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 39,
+    "intake": {
+      "name": "Demo Salim Khan",
+      "age_years": 61,
+      "sex": "MALE",
+      "pregnancy_status": "UNKNOWN",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine thyroid refill",
+      "confirmed_text": "Routine thyroid refill",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  },
+  {
+    "case": 40,
+    "intake": {
+      "name": "Demo Pushpa Mishra",
+      "age_years": 49,
+      "sex": "FEMALE",
+      "pregnancy_status": "NOT_PREGNANT",
+      "language": "en-IN",
+      "input_methods": [
+        "TEXT"
+      ],
+      "original_text": "Routine diabetes follow-up; feels well",
+      "confirmed_text": "Routine diabetes follow-up; feels well",
+      "facts": {
+        "stable_routine_visit": true
+      },
+      "vitals": {
+        "temperature_c": {
+          "value": 36.7,
+          "status": "RECORDED"
+        },
+        "spo2": {
+          "value": 98,
+          "status": "RECORDED"
+        },
+        "pr": {
+          "value": 82,
+          "status": "RECORDED"
+        },
+        "sbp": {
+          "value": 120,
+          "status": "RECORDED"
+        },
+        "dbp": {
+          "value": 80,
+          "status": "RECORDED"
+        },
+        "rr": {
+          "value": 16,
+          "status": "RECORDED"
+        },
+        "rbs": {
+          "value": 104,
+          "status": "RECORDED"
+        }
+      },
+      "history_status": "NOT_PROVIDED",
+      "medication_status": "NOT_PROVIDED"
+    }
+  }
+]

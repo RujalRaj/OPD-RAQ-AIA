@@ -1,5 +1,9 @@
 # Public demo deployment
 
+Live demo: https://opd-raq-aia.onrender.com
+
+Repository: https://github.com/RujalRaj/OPD-RAQ-AIA
+
 The Docker image includes the React production build and FastAPI. Both are served on the same origin. API keys stay on the server. `scripts.start_server` creates staff accounts and seeds the curated queue only when the database is empty.
 
 ## Render

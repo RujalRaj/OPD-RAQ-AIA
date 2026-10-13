@@ -1,4 +1,4 @@
-# Local architecture
+# Application architecture
 
 React 19 and Vite 7 serve a bilingual patient intake screen and an authenticated staff workspace. Vite proxies `/api` to FastAPI. The default database is SQLite through SQLAlchemy 2. All dates are stored in UTC ISO format and shown in the browser's local time.
 
@@ -53,7 +53,7 @@ All paths below have prefix `/api/v1`. Interactive request/response schemas are 
 
 Writes to an existing encounter require `version`. Override payloads require `priority`, `reason`, and `vitals` for nurse/intern/JR. A measurement is, for example, `{"pr":{"status":"RECORDED","value":82}}`. Missing status has no number: `{"rbs":{"status":"UNABLE_TO_OBTAIN","value":null}}`. Omitted measurements retain their previous value and measurement time.
 
-POSTs with a browser Origin outside the local allowlist are rejected. Staff identity cannot be supplied in an override body. The public registration receipt intentionally omits the internal encounter ID and all queue information. Responses use no-store caching. These are local prototype protections, not a production authentication/security assessment.
+POSTs with a browser Origin outside the configured origin allowlist are rejected. Staff identity cannot be supplied in an override body. The public registration receipt intentionally omits the internal encounter ID and all queue information. Responses use no-store caching. These are local prototype protections, not a production authentication/security assessment.
 
 See [live AI setup](live-ai-setup.md) for the provider configuration, guards, uncertainty handling and verification boundaries. Live AI may suggest Routine outside the local vocabulary when no source minimum or uncertainty guard blocks it. A policy gap is retained for staff even when the model suggestion applies.
 

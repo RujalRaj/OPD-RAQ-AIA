@@ -6,11 +6,12 @@ OPD RAQ AIA is a hackathon prototype for patient registration and queue prioriti
 
 **Synthetic demonstration only. This application has not been clinically validated and must not be used for real patient care.**
 
+- [Live demo](https://opd-raq-aia.onrender.com)
 - [GitHub repository](https://github.com/RujalRaj/OPD-RAQ-AIA)
 - [Deployment setup](docs/deployment.md)
 - [AI setup](docs/live-ai-setup.md)
 
-![Staff dashboard with the curated demo queue](docs/assets/dashboard-demo.png)
+![Staff dashboard with the curated demo queue](docs/assets/live-dashboard.png)
 
 ## What works
 
@@ -22,6 +23,8 @@ OPD RAQ AIA is a hackathon prototype for patient registration and queue prioriti
 - A dashboard that opens on Immediate, with a dropdown for Soon and Routine. Original registration order remains visible.
 - Separate **Original** and **Translated in Hindi/English** symptom boxes. Original input stays unchanged. Checkbox labels use the bilingual catalog; free text uses a cached translation. The prepared demo phrases also work offline.
 - Staff overrides, unresolved cases sent for doctor review, and an audit trail.
+
+![Original and translated symptom report](docs/assets/live-bilingual-report.png)
 
 ## Current workflow
 
@@ -101,7 +104,7 @@ npm run dev
 
 Open [the local app](http://127.0.0.1:5173). Do not run `backend/main.py` directly. Both terminals must stay open.
 
-The included VS Code tasks offer the same setup, start and test commands.
+The included VS Code tasks can start the app, seed demo data and configure or check the AI connection.
 
 ## Connect Groq
 

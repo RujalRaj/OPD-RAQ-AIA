@@ -195,3 +195,11 @@ Validation: 193 backend tests passed, followed by two new deployment tests (195 
 Added a Docker image, Render configuration, secure-cookie setting and explicit deployment origin handling. Updated the README, architecture, provider setup and deployment instructions. Private credentials and SQLite files are excluded from both Git and the Docker build.
 
 Two real Groq translation calls also completed using invented headache reports, one in each direction. Both retained the stated onset and the explicit absence of vomiting. This is a small connectivity/content check, not a translation-quality or clinical evaluation. No live patient records or queue priorities were changed by the check.
+
+### Public deployment verified
+
+Deployed the Docker application to https://opd-raq-aia.onrender.com on Render's free instance. Public health, HTTPS secure-cookie login, staff dashboard, the /intake route and cached translation endpoints passed. The hosted queue was 3 Immediate, 7 Soon and 30 Routine. A live Groq reassessment of synthetic token 11 completed as Routine, preserving those counts. Token 3 (Demo Anita Verma) remains Immediate for the override demonstration. Original text, token, priority and encounter version were unchanged by its translation request.
+
+The public website was checked in a fresh automated browser session, including doctor login, the three Immediate cards and the two symptom-language boxes. Submission screenshots are saved in docs/assets/live-dashboard.png and docs/assets/live-bilingual-report.png. The hosted runtime uses application commit dba2411; the subsequent submission commit updates documentation and screenshots only.
+
+Render's free filesystem is ephemeral. Restarts/redeployments may start a new seeded queue and remove subsequent demo changes; the documentation states this limitation. The local SQLite database and existing VS Code servers were not reset or stopped.
